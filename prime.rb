@@ -1,5 +1,8 @@
 def prime?(num)
   if num >= 2
     (2..number - 1).all? do |x|
-else
+      num % x != 0
+  else
+  return false
+  end
 end
